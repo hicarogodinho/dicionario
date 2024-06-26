@@ -14,8 +14,8 @@ const (
 // ErrDicionario são erros que podem acontecer quando se interage com o dicionário
 type ErrDicionario string
 
-func (f ErrDicionario) Error() string {
-	return string(f)
+func (g ErrDicionario) Error() string {
+	return string(g)
 }
 
 // Dicionario armazena definições de palavras
